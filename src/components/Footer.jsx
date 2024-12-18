@@ -19,7 +19,7 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-semibold mb-4">Suivez-nous</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-[#D2B48C] transition-colors">
+              <a href="https://www.facebook.com/beautyfirdaous/" target="_blank" className="text-white hover:text-[#D2B48C] transition-colors">
                 <FaFacebookF size={24} />
               </a>
               <a href="https://www.instagram.com/firdaous.paradise.spa/" target="_blank" className="text-white hover:text-[#D2B48C] transition-colors">
