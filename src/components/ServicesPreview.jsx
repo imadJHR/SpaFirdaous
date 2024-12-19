@@ -78,6 +78,16 @@ const ServicesPreview = () => {
           >
             Voir tous les services
           </Link>
+           <div className="mt-auto">
+          <Link to="/reservation">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="w-full bg-primary text-white px-4 py-2 rounded-full hover:bg-secondary transition-colors"
+            >
+              Réservez
+            </motion.button>
+          </Link>
         </motion.div>
       </div>
     </section>
