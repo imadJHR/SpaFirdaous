@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const services = [
   {
     title: "Microneedling",
-    description: "Vivez une relaxation profonde avec nos massages signatures",
+    description: "Vivez une relaxation profonde avec nos Microneedling",
     image:
       "https://myla-bella.com/wp-content/uploads/2024/09/microneedling.jpg",
     price: "400",
