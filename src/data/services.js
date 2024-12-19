@@ -169,5 +169,12 @@ export const services = [
       price: "599",
       image: "https://dianabeauty.nl/img/cms/500%20x%20500%20test/modelki/protein%20(4).jpg"
     },
+   {
+      title: "Stickers Extensions",
+      description: "40 Bandes",
+      duration: "90 min",
+      price: "1350",
+      image: "https://studio-extensions.com/wp-content/uploads/2019/03/TAPES3.jpg"
+    },
   ];
   
