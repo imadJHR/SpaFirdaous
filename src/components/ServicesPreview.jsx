@@ -6,7 +6,7 @@ const services = [
     title: "Microneedling",
     description: "Vivez une relaxation profonde avec nos massages signatures",
     image:
-      "https://amassante.com/wp-content/uploads/2020/12/Le-massage-therapeutique-pourquoi-en-ai-je-besoin.jpg",
+      "https://myla-bella.com/wp-content/uploads/2024/09/microneedling.jpg",
     price: "400",
     duration: "1 séance",
   },
