@@ -152,9 +152,30 @@ export const services = [
     {
       title: "Blanchiment dentaire",
       description: "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
-      duration: "3 séance",
+      duration: "3 séances",
       price: "600",
       image: "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg"
+    },
+    {
+      title: "Lifting Colombien",
+      description: "",
+      duration: "1 séance",
+      price: "150",
+      image: "https://universequipementmedical.com/fr/wp-content/uploads/2022/01/19aff6fa1f9d8c6_big_big.jpg"
+    },
+  {
+      title: "Glaçage des Levres",
+      description: "",
+      duration: "2 séances",
+      price: "1000",
+      image: "https://i0.wp.com/epilmacmorocco.com/wp-content/uploads/2021/02/maquillage-permanent-rabat.jpg?w=1000&ssl=1"
+    },
+   {
+      title: "Protein et Keratine",
+      description: "Toutes les longeurs",
+      duration: "599",
+      price: "1000",
+      image: "/img/cms/500%20x%20500%20test/modelki/protein%20(4).jpg"
     },
   ];
   
