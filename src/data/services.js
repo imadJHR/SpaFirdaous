@@ -1,4 +1,28 @@
 export const services = [
+ {
+    title: "Microneedling",
+    description: "Vivez une relaxation profonde avec nos massages signatures",
+    image:
+      "https://amassante.com/wp-content/uploads/2020/12/Le-massage-therapeutique-pourquoi-en-ai-je-besoin.jpg",
+    price: "400",
+    duration: "1 séance",
+  },
+  {
+    title: "Soins du visage Royal",
+    description: "Revitalisez votre peau avec des ingrédients naturels",
+    image:
+      "https://www.mademoisellerelax.fr/wp-content/uploads/2018/06/mademoiselle-relax-soins-visage-2.jpg",
+    price: "400",
+    duration: "60 min",
+  },
+  {
+    title: "Blanchiment dentaire",
+    description:
+      "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
+    image: "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
+    price: "600",
+    duration: "3 séances",
+  },
     {
       title: "Hammam Au Chocolat",
       description: "Gommage + le gant + tabrima sahrawia + savonnage au chocolat.",
