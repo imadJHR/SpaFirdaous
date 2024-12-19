@@ -15,14 +15,6 @@ export const services = [
     price: "400",
     duration: "60 min",
   },
-  {
-    title: "Blanchiment dentaire",
-    description:
-      "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
-    image: "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
-    price: "600",
-    duration: "3 séances",
-  },
     {
       title: "Hammam Au Chocolat",
       description: "Gommage + le gant + tabrima sahrawia + savonnage au chocolat.",
