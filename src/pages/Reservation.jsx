@@ -162,6 +162,8 @@ const Reservation = () => {
   required
 >
   <option value="">Sélectionnez un service</option>
+  <option value="stickers-extensions">Stickers Extensions</option>
+  <option value="cil-permanent">Cil Permanent</option>
   <option value="swedish">Massage Suédois</option>
   <option value="deep-tissue">Massage Deep Tissue</option>
   <option value="hot-stone">Massage aux Pierres Chaudes</option>
