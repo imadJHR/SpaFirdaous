@@ -1,25 +1,30 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Smile from "../assets/smile2-transformed.jpeg";
 
 const services = [
   {
-    title: "Thérapie par massage",
+    title: "Microneedling",
     description: "Vivez une relaxation profonde avec nos massages signatures",
     image:
-      "https://media.istockphoto.com/id/469916170/fr/photo/jeune-femme-de-d%C3%A9tente-au-cours-de-massage-dans-le-spa.jpg?s=612x612&w=0&k=20&c=JBu29cEFB5QkP4dd63Lucd6ysw_8MZaUCgUSq7PKo4Q=",
+      "https://amassante.com/wp-content/uploads/2020/12/Le-massage-therapeutique-pourquoi-en-ai-je-besoin.jpg",
+    price: "400",
+    duration: "1 séance",
   },
   {
-    title: "Soins du visage",
+    title: "Soins du visage Royal",
     description: "Revitalisez votre peau avec des ingrédients naturels",
     image:
-      "https://img.freepik.com/photos-gratuite/jeune-femme-au-masque-pour-visage-relaxant-dans-salon-spa_176420-7582.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid",
+      "https://www.mademoisellerelax.fr/wp-content/uploads/2018/06/mademoiselle-relax-soins-visage-2.jpg",
+    price: "400",
+    duration: "60 min",
   },
   {
     title: "Blanchiment dentaire",
     description:
       "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
-    image: Smile,
+    image: "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
+    price: "600",
+    duration: "3 séances",
   },
 ];
 
@@ -49,11 +54,15 @@ const ServicesPreview = () => {
                   src={service.image}
                   className="object-cover rounded-lg  h-[300px] w-[400px] transition-all duration-300 hover:scale-110  mx-auto"
                 />
-              </div>{" "}
+              </div>
               <h3 className="text-2xl font-semibold mb-4 text-primary">
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-4">{service.description}</p>
+              <p className="text-gray-800 font-medium">
+                <span className="block">Prix : {service.price}</span>
+                <span className="block">Durée : {service.duration}</span>
+              </p>
             </motion.div>
           ))}
         </div>
