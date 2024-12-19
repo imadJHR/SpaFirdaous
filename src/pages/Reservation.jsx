@@ -153,40 +153,47 @@ const Reservation = () => {
                   Service
                 </label>
                 <select
-                  id="service"
-                  className="w-full p-2 border rounded"
-                  value={formData.service}
-                  onChange={(e) =>
-                    setFormData({ ...formData, service: e.target.value })
-                  }
-                  required
-                >
-                  <option value="">Sélectionnez un service</option>
-                  <option value="swedish">Massage Suédois</option>
-                  <option value="deep-tissue">Massage Deep Tissue</option>
-                  <option value="hot-stone">Massage aux Pierres Chaudes</option>
-                  <option value="hammam-au-chocolat">Hammam Au Chocolat</option>
-                  <option value="hammam-anti-stress">Hammam Anti-Stress</option>
-                  <option value="pack-paradise-anti-stress">
-                    Pack Paradise Anti-Stress
-                  </option>
-                  <option value="pack-hammam-aux-algues-medicales">
-                    Pack Hammam Aux Algues Médicales
-                  </option>
-                  <option value="pack-hammam-vip">Pack Hammam VIP</option>
-                  <option value="pack-sultana">Pack Sultana</option>
-                  <option value="pack-hammam-shahrazade">
-                    Pack Hammam Shahrazade
-                  </option>
-                  <option value="pack-hammam-loock">Pack Hammam Loock</option>
-                  <option value="pack-hammam-royal">Pack Hammam Royal</option>
-                  <option value="pack-hammam-luxe">Pack Hammam Luxe</option>
-                  <option value="pack-hammam-prestige">
-                    Pack Hammam Prestige
-                  </option>
-                  <option value="pedicure-royal">Pédicure Royal</option>
-                  <option value="pack-mariee">Pack Mariée</option>
-                </select>
+  id="service"
+  className="w-full p-2 border rounded"
+  value={formData.service}
+  onChange={(e) =>
+    setFormData({ ...formData, service: e.target.value })
+  }
+  required
+>
+  <option value="">Sélectionnez un service</option>
+  <option value="swedish">Massage Suédois</option>
+  <option value="deep-tissue">Massage Deep Tissue</option>
+  <option value="hot-stone">Massage aux Pierres Chaudes</option>
+  <option value="hammam-au-chocolat">Hammam Au Chocolat</option>
+  <option value="hammam-anti-stress">Hammam Anti-Stress</option>
+  <option value="pack-paradise-anti-stress">
+    Pack Paradise Anti-Stress
+  </option>
+  <option value="pack-hammam-aux-algues-medicales">
+    Pack Hammam Aux Algues Médicales
+  </option>
+  <option value="pack-hammam-vip">Pack Hammam VIP</option>
+  <option value="pack-sultana">Pack Sultana</option>
+  <option value="pack-hammam-shahrazade">
+    Pack Hammam Shahrazade
+  </option>
+  <option value="pack-hammam-loock">Pack Hammam Loock</option>
+  <option value="pack-hammam-royal">Pack Hammam Royal</option>
+  <option value="pack-hammam-luxe">Pack Hammam Luxe</option>
+  <option value="pack-hammam-prestige">
+    Pack Hammam Prestige
+  </option>
+  <option value="pedicure-royal">Pédicure Royal</option>
+  <option value="pack-mariee">Pack Mariée</option>
+  <option value="protein-keratine">Protéine et Kératine</option>
+  <option value="glacage-levres">Glaçage des Lèvres</option>
+  <option value="lifting-colombien">Lifting Colombien</option>
+  <option value="blanchiment-dentaire">Blanchiment Dentaire</option>
+  <option value="soins-visage-royal">Soins du Visage Royal</option>
+  <option value="microneedling">Microneedling</option>
+</select>
+
               </div>
 
               <button
