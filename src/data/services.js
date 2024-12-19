@@ -125,5 +125,12 @@ export const services = [
       price: "380",
       image: "https://img.freepik.com/photos-gratuite/traitement-aromatherapie-bougies_144627-20318.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
     },
+    {
+      title: "Blanchiment dentaire",
+      description: "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
+      duration: "3 séance",
+      price: "600",
+      image: "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg"
+    },
   ];
   
