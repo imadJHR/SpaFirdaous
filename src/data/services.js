@@ -181,7 +181,7 @@ export const services = [
       description: "100% en sole",
       duration: "60 min",
       price: "400",
-      image: "https://atelierduregard.ch/wp-content/uploads/2014/06/mascara-semi-permanent-AdR.jpg"
+      image: "https://socabeautysophia.com/cdn/shop/files/Screenshot_20220418-112112_Instagram.jpg?v=1653041834&width=1920"
     },
   ];
   
