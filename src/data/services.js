@@ -109,7 +109,7 @@ export const services = [
       description: "Head Spa 1 Heure + Soin Cheveux Antichute.",
       duration: "60 min",
       price: "380",
-      image: "https://img.freepik.com/photos-gratuite/jeune-femme-tenant-herbes-medicinales-se-detendre-dans-sauna_23-2147867891.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
+      image: "https://www.graindebeaute-merville.fr/wp-content/uploads/2024/03/japanese-head-spa-sliedrecht-slider-1280x800.jpg"
     },
     {
       title: "Head Spa Soin Hydratant",
