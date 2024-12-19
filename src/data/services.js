@@ -176,5 +176,12 @@ export const services = [
       price: "1350",
       image: "https://studio-extensions.com/wp-content/uploads/2019/03/TAPES3.jpg"
     },
+   {
+      title: "Cil Permanent",
+      description: "100% en sole",
+      duration: "60 min",
+      price: "400",
+      image: "https://atelierduregard.ch/wp-content/uploads/2014/06/mascara-semi-permanent-AdR.jpg"
+    },
   ];
   
