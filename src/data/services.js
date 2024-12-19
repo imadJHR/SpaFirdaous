@@ -165,8 +165,8 @@ export const services = [
    {
       title: "Protein et Keratine",
       description: "Toutes les longeurs",
-      duration: "599",
-      price: "1000",
+      duration: "90 min",
+      price: "599",
       image: "https://dianabeauty.nl/img/cms/500%20x%20500%20test/modelki/protein%20(4).jpg"
     },
   ];
