@@ -48,7 +48,7 @@ const ServicesPreview = () => {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
-              className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow"
+              className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow flex flex-col"
             >
               <div className="flex justify-center items-center mb-6">
                 <img
@@ -60,28 +60,22 @@ const ServicesPreview = () => {
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-4">{service.description}</p>
-              <p className="text-gray-800 font-medium">
+              <p className="text-gray-800 font-medium mb-4">
                 <span className="block">Prix : {service.price}</span>
                 <span className="block">Durée : {service.duration}</span>
               </p>
-              <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            className="text-center mt-4"
-          >
-            <Link to="/reservation">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-primary text-white px-8 py-3 rounded-full hover:bg-secondary transition-colors"
-              >
-                Réservez
-              </motion.button>
-            </Link>
-          </motion.div>
+              <div className="mt-auto">
+                <Link to="/reservation">
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="bg-primary text-white px-8 py-3 rounded-full hover:bg-secondary transition-colors"
+                  >
+                    Réservez
+                  </motion.button>
+                </Link>
+              </div>
             </motion.div>
-            
-            
           ))}
         </div>
 
@@ -97,8 +91,6 @@ const ServicesPreview = () => {
             Voir tous les services
           </Link>
         </motion.div>
-
-        
       </div>
     </section>
   );
