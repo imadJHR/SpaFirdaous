@@ -22,7 +22,8 @@ const services = [
     title: "Blanchiment dentaire",
     description:
       "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
-    image: "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
+    image:
+      "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
     price: "600",
     duration: "3 séances",
   },
@@ -49,10 +50,10 @@ const ServicesPreview = () => {
               transition={{ delay: index * 0.2 }}
               className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow"
             >
-              <div className="flex justify-center items-center mb-6 ">
+              <div className="flex justify-center items-center mb-6">
                 <img
                   src={service.image}
-                  className="object-cover rounded-lg  h-[300px] w-[400px] transition-all duration-300 hover:scale-110  mx-auto"
+                  className="object-cover rounded-lg h-[300px] w-[400px] transition-all duration-300 hover:scale-110 mx-auto"
                 />
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-primary">
@@ -63,7 +64,24 @@ const ServicesPreview = () => {
                 <span className="block">Prix : {service.price}</span>
                 <span className="block">Durée : {service.duration}</span>
               </p>
+              <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            className="text-center mt-4"
+          >
+            <Link to="/reservation">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-primary text-white px-8 py-3 rounded-full hover:bg-secondary transition-colors"
+              >
+                Réservez
+              </motion.button>
+            </Link>
+          </motion.div>
             </motion.div>
+            
+            
           ))}
         </div>
 
@@ -78,17 +96,9 @@ const ServicesPreview = () => {
           >
             Voir tous les services
           </Link>
-           <div className="mt-auto">
-          <Link to="/reservation">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="w-full bg-primary text-white px-4 py-2 rounded-full hover:bg-secondary transition-colors"
-            >
-              Réservez
-            </motion.button>
-          </Link>
         </motion.div>
+
+        
       </div>
     </section>
   );
