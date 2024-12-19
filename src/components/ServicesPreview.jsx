@@ -60,10 +60,14 @@ const ServicesPreview = () => {
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-4">{service.description}</p>
-              <p className="text-gray-800 font-medium mb-4">
-                <span className="block">Prix : {service.price}</span>
-                <span className="block">Durée : {service.duration}</span>
-              </p>
+              <div className="flex justify-between items-center mb-4">
+                <span className="text-sm text-gray-500">
+                  Duration: {service.duration}
+                </span>
+                <span className="text-lg font-semibold text-primary">
+                  {service.price} DHS
+                </span>
+              </div>
               <div className="mt-auto">
                 <Link to="/reservation">
                   <motion.button
