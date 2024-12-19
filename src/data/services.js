@@ -175,7 +175,7 @@ export const services = [
       description: "Toutes les longeurs",
       duration: "599",
       price: "1000",
-      image: "/img/cms/500%20x%20500%20test/modelki/protein%20(4).jpg"
+      image: "https://dianabeauty.nl/img/cms/500%20x%20500%20test/modelki/protein%20(4).jpg"
     },
   ];
   
