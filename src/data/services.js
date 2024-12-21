@@ -1,69 +1,47 @@
 export const services = [
- {
-    title: "Microneedling",
-    description: "Vivez une relaxation profonde avec nos Microneedling",
-    image:
-      "https://myla-bella.com/wp-content/uploads/2024/09/microneedling.jpg",
-    price: "400",
-    duration: "1 séance",
-  },
   {
-    title: "Soins du visage Royal",
-    description: "Revitalisez votre peau avec des ingrédients naturels",
-    image:
-      "https://www.mademoisellerelax.fr/wp-content/uploads/2018/06/mademoiselle-relax-soins-visage-2.jpg",
-    price: "400",
-    duration: "60 min",
-  },
-    {
       title: "Hammam Au Chocolat",
       description: "Gommage + le gant + tabrima sahrawia + savonnage au chocolat.",
       duration: "60 min",
       price: "200",
       image: "https://marajahspa.com/wp-content/uploads/2023/01/PHOTO-2023-01-11-17-10-048-1024x682.jpg"
     },
-    {
+ {
       title: "Hammam Anti-Stress",
       description: "Gommage + le gant + tabrima + savonnage A base de pamplemousse + envolopement mask antifatique + brushing.",
       duration: "60 min",
       price: "300",
       image: "https://www.bienetreconfort.fr/wp-content/uploads/2018/05/hammam-anti-stress.jpg"
     },
-    {
-      title: "Pack Paradise Anti-Stress",
-      description: "Gommage + le gant + tabrima + savonnage A base de pamplemousse + envolopement mask antifatique + brushing + 1 Heure massage anti-stress.",
-      duration: "90 min",
-      price: "350",
-      image: "https://www.bienetreconfort.fr/wp-content/uploads/2018/02/hammam-bienfaits-corps-esprit.jpg"
-    },
-    {
+  {
       title: "Pack Hammam Aux Algues Medicales",
       description: "Mask algue avec argile verte (anti taches et acné) + gommage au gant + un petit gommage au sel marin (pour améliorer la circulation du sang) + envolopement 7 plantes chauffantes (relaxation musculaire) + soin cheveux bonnet + mask visage nila et savonage avec un gel (anti fatigue) + 1 Heure massage médical et brushing.",
       duration: "75 min",
       price: "480",
       image: "https://lesbainsdeazahara.net/wp-content/uploads/2022/05/P1000643-scaled.jpg"
     },
-    {
+  {
       title: "Pack Hammam VIP",
       description: "Gommage + Savonnage + 1 Heure massage + Brushing.",
       duration: "90 min",
       price: "250",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tsK7RlO0dOtNoNVXCg2Julkd4QQuogwELJeBOBpgienV8tB2e3bSA0I9vH48eiTz4ig&usqp=CAU"
     },
-    {
-      title: "Pack Sultana",
-      description: "Gommage + Savonnage + Pose Vernie Permanant + Brushing.",
-      duration: "60 min",
-      price: "250",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_bnaQ7vWDnoY8_G7GP4Kpnvhg3vuaDlkmS6-TEUK1NwTyjd8qlKcz1p28rkzrkmsxIFA&usqp=CAU"
-    },
-    {
+ {
       title: "Pack Hammam Shahrazade",
       description: "Gommage + Savonnage + La Cire Complette + Brushing.",
       duration: "60 min",
       price: "299",
       image: "https://img.freepik.com/photos-gratuite/cadre-spa-bougie-allumee-serviettes-moelleuses-fleurs-parfumees-favorise-relaxation_91128-4634.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
     },
+  {
+      title: "Pack Sultana",
+      description: "Gommage + Savonnage + Pose Vernie Permanant + Brushing.",
+      duration: "60 min",
+      price: "250",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_bnaQ7vWDnoY8_G7GP4Kpnvhg3vuaDlkmS6-TEUK1NwTyjd8qlKcz1p28rkzrkmsxIFA&usqp=CAU"
+    },
+    
     {
       title: "Pack Hammam Loock",
       description: "Gommage + Savonnage + Coloration Des Cheveux  + Brushing.",
@@ -92,28 +70,7 @@ export const services = [
       price: "300",
       image: "https://img.freepik.com/photos-gratuite/femme-se-detendre-dans-chambre-hotel_23-2148095308.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
     },
-    {
-      title: "Pédicure Royal",
-      description: "Gommage Anti Stress + Mask Anti Stress + Paraffine + Massage Bougie.",
-      duration: "60 min",
-      price: "150",
-      image: "https://img.freepik.com/photos-gratuite/belle-photo-conception-chambre-ancienne-baignoire-petite-piscine-interieure_181624-21679.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
-    },
-    {
-      title: "Pack Hammam Royal",
-      description: "Gommage + Savonnage + Entré Mariée + Masque Corporel Laroussa + 1 Heure De Massage Anti Stress.",
-      duration: "60 min",
-      price: "1000",
-      image: "https://img.freepik.com/photos-gratuite/elements-naturels-pour-spa-bougies_23-2148199525.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
-    },
-    {
-      title: "Pack Mariée",
-      description: "Entree Mariée Avec Les Accessoires + M'aquige Professionnel (Mariée) + Chignon + Epilation Complete + Manucure Royal + Peducure Royal + Gel Mains Et Pieds , Soin Hydra Facial Royal.",
-      duration: "60 min",
-      price: "3000",
-      image: "https://img.freepik.com/photos-gratuite/jeune-femme-sentir-herbe-fleurs-debout-dans-sauna_23-2147867889.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
-    },
-    {
+   {
       title: "Head Spa Basique",
       description: "Head Spa 45 min + Shampoin + Demeleur.",
       duration: "60 min",
@@ -141,6 +98,58 @@ export const services = [
       price: "380",
       image: "https://img.freepik.com/photos-gratuite/traitement-aromatherapie-bougies_144627-20318.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
     },
+  {
+      title: "Pack Paradise Anti-Stress",
+      description: "Gommage + le gant + tabrima + savonnage A base de pamplemousse + envolopement mask antifatique + brushing + 1 Heure massage anti-stress.",
+      duration: "90 min",
+      price: "350",
+      image: "https://www.bienetreconfort.fr/wp-content/uploads/2018/02/hammam-bienfaits-corps-esprit.jpg"
+    },
+  {
+      title: "Pack Hammam Royal",
+      description: "Gommage + Savonnage + Entré Mariée + Masque Corporel Laroussa + 1 Heure De Massage Anti Stress.",
+      duration: "60 min",
+      price: "1000",
+      image: "https://img.freepik.com/photos-gratuite/elements-naturels-pour-spa-bougies_23-2148199525.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
+    },
+    {
+      title: "Pack Mariée",
+      description: "Entree Mariée Avec Les Accessoires + M'aquige Professionnel (Mariée) + Chignon + Epilation Complete + Manucure Royal + Peducure Royal + Gel Mains Et Pieds , Soin Hydra Facial Royal.",
+      duration: "60 min",
+      price: "3000",
+      image: "https://img.freepik.com/photos-gratuite/jeune-femme-sentir-herbe-fleurs-debout-dans-sauna_23-2147867889.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
+    },
+ {
+    title: "Microneedling",
+    description: "Vivez une relaxation profonde avec nos Microneedling",
+    image:
+      "https://myla-bella.com/wp-content/uploads/2024/09/microneedling.jpg",
+    price: "400",
+    duration: "1 séance",
+  },
+  {
+    title: "Soins du visage Royal",
+    description: "Revitalisez votre peau avec des ingrédients naturels",
+    image:
+      "https://www.mademoisellerelax.fr/wp-content/uploads/2018/06/mademoiselle-relax-soins-visage-2.jpg",
+    price: "400",
+    duration: "60 min",
+  },
+   
+    
+   
+   
+   
+   
+    {
+      title: "Pédicure Royal",
+      description: "Gommage Anti Stress + Mask Anti Stress + Paraffine + Massage Bougie.",
+      duration: "60 min",
+      price: "150",
+      image: "https://img.freepik.com/photos-gratuite/belle-photo-conception-chambre-ancienne-baignoire-petite-piscine-interieure_181624-21679.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
+    },
+   
+  
     {
       title: "Blanchiment dentaire",
       description: "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
