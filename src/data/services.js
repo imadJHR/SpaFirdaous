@@ -176,7 +176,7 @@ export const services = [
       description: "Toutes les longeurs",
       duration: "90 min",
       price: "599",
-      image: "https://dianabeauty.nl/img/cms/500%20x%20500%20test/modelki/protein%20(4).jpg"
+      image: "https://dianabeauty.nl/img/cms/500%20x%20500%20test/modelki/protein%20(5).jpg"
     },
    {
       title: "Stickers Extensions",
