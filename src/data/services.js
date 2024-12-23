@@ -1,3 +1,5 @@
+import Keratine from "../assets/keratine.jpg"
+
 export const services = [
   {
       title: "Hammam Au Chocolat",
@@ -176,7 +178,7 @@ export const services = [
       description: "Toutes les longeurs",
       duration: "90 min",
       price: "599",
-      image: "https://dianabeauty.nl/img/cms/500%20x%20500%20test/modelki/protein%20(5).jpg"
+      image: Keratine
     },
    {
       title: "Stickers Extensions",
