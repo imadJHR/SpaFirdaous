@@ -148,7 +148,7 @@ export const services = [
       description: "Gommage Anti Stress + Mask Anti Stress + Paraffine + Massage Bougie.",
       duration: "60 min",
       price: "150",
-      image: "https://img.freepik.com/photos-gratuite/belle-photo-conception-chambre-ancienne-baignoire-petite-piscine-interieure_181624-21679.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN9-SOqThd-S4Naf6v13VS0RcyWArweOXkIw&s"
     },
    
   
