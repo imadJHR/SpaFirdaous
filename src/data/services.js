@@ -177,7 +177,7 @@ export const services = [
       title: "Protein et Keratine",
       description: "Toutes les longeurs",
       duration: "90 min",
-      price: "599",
+      price: "799",
       image: Keratine
     },
    {
