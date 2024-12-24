@@ -83,9 +83,7 @@ const Contact = () => {
             <p>✉️ imadjohar4@gmail.com.com</p>
             <div>
               <h3 className="font-semibold mb-2">Opening Hours:</h3>
-              <p>lundi - dimanche: 10:00 AM - 22:00 PM</p>
-              <p>Saturday: 10:00 AM - 6:00 PM</p>
-              <p>dimanche: Fermé</p>
+              <p>lundi - dimanche: 10:00 AM - 20:00 PM</p>
             </div>
           </div>
         </motion.div>
