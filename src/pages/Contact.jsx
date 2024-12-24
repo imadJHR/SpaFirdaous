@@ -80,7 +80,7 @@ const Contact = () => {
           <div className="space-y-4">
             <p>📍 Rue oussama ibno zaid n110 maarif, Casablanca, Morocco</p>
             <p>📱 +212 661-253143</p>
-            <p>✉️ imadjohar4@gmail.com.com</p>
+            <p>✉️ firdaousreservation@gmail.com</p>
             <div>
               <h3 className="font-semibold mb-2">Opening Hours:</h3>
               <p>lundi - dimanche: 10:00 AM - 20:00 PM</p>
