@@ -14,7 +14,7 @@ const Footer = () => {
             <p>Rue oussama ibno zaid n110 maarif</p>
             <p>Casablanca, Morocco</p>
             <p>Tél: +212 661-253143</p>
-            <p>Email: imadjohar4@gmail.com</p>
+            <p>Email: firdaousreservation@gmail.com</p>
           </div>
           <div>
             <h4 className="text-xl font-semibold mb-4">Suivez-nous</h4>
