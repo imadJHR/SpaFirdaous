@@ -17,7 +17,7 @@ const Reservation = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://formspree.io/f/xanygpgj", {
+    fetch("https://formspree.io/f/mdkkkdyv", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
