@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://formspree.io/f/mwpkdrdd", {
+    fetch("https://formspree.io/f/xqaaalwr", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
