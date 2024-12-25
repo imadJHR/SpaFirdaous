@@ -11,13 +11,13 @@ const AboutSection = () => {
       >
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl font-bold text-primary mb-8">
-            Découvrez <span className="text-secondary">Firdaous  Paradise Spa</span> : L'Art du Bien-Être et de la Sérénité
+            Découvrez <span className="text-secondary">Firdaous Paradise Spa</span> : L'Art du Bien-Être et de la Sérénité
           </h1>
           <p className="text-lg text-gray-600 mb-6">
-            Bienvenue chez <span className="font-bold"> Firdaous Paradise Spa </spa>, votre havre de paix où luxe et tranquillité se rencontrent. Forts de plus de 10 ans d'expertise, nous sommes les spécialistes de la relaxation profonde et du rajeunissement naturel. Notre engagement envers des soins personnalisés et l'excellence nous placent parmi les leaders du bien-être.
+            Bienvenue chez <span className="font-bold">Firdaous Paradise Spa</span>, votre havre de paix où luxe et tranquillité se rencontrent. Forts de plus de 10 ans d'expertise, nous sommes les spécialistes de la relaxation profonde et du rajeunissement naturel. Notre engagement envers des soins personnalisés et l'excellence nous placent parmi les leaders du bien-être.
           </p>
           <p className="text-lg text-gray-600">
-         Nous utilisons exclusivement des produits biologiques haut de gamme et des techniques issues des traditions ancestrales de guérison. Nos thérapeutes qualifiés transforment chaque soin en une expérience apaisante et revitalisante pour le corps et l'esprit. Choisissez Firdaous Paradise Spa pour un moment de détente inoubliable.
+            Nous utilisons exclusivement des produits biologiques haut de gamme et des techniques issues des traditions ancestrales de guérison. Nos thérapeutes qualifiés transforment chaque soin en une expérience apaisante et revitalisante pour le corps et l'esprit. Choisissez Firdaous Paradise Spa pour un moment de détente inoubliable.
           </p>
         </div>
       </motion.div>
