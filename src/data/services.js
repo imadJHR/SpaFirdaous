@@ -58,7 +58,7 @@ export const services = [
     image: Keratine,
   },
   {
-    title: "Microneedling Réparateur pour une Peau Lisse",
+    title: "Microneedling Soin Cutané Régénérant",
     description: "Rajeunissez votre peau et réduisez les imperfections grâce à notre soin de microneedling, idéal pour retrouver un teint éclatant et lisse.",
     duration: "1 séance",
     price: "399 ",
