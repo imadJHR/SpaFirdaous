@@ -4,28 +4,27 @@ import { Link } from "react-router-dom";
 const services = [
   {
     title: "Microneedling",
-    description: "Vivez une relaxation profonde avec nos Microneedling",
-    image:
-      "https://myla-bella.com/wp-content/uploads/2024/09/microneedling.jpg",
+    description: "Vivez une relaxation profonde avec nos soins de microneedling, idéaux pour améliorer la texture et l'éclat de votre peau.",
+    image: "https://myla-bella.com/wp-content/uploads/2024/09/microneedling.jpg",
     price: "400",
     duration: "1 séance",
+    alt: "Microneedling - Soins de la peau",
   },
   {
     title: "Soins du visage Royal",
-    description: "Revitalisez votre peau avec des ingrédients naturels",
-    image:
-      "https://www.mademoisellerelax.fr/wp-content/uploads/2018/06/mademoiselle-relax-soins-visage-2.jpg",
+    description: "Revitalisez votre peau avec notre soin royal, utilisant des ingrédients naturels pour une expérience luxueuse et réparatrice.",
+    image: "https://www.mademoisellerelax.fr/wp-content/uploads/2018/06/mademoiselle-relax-soins-visage-2.jpg",
     price: "400",
     duration: "60 min",
+    alt: "Soins du visage royal avec des produits naturels",
   },
   {
     title: "Blanchiment dentaire",
-    description:
-      "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
-    image:
-      "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
+    description: "Ravivez l'éclat naturel de votre sourire grâce à notre traitement de blanchiment dentaire professionnel et sécurisé.",
+    image: "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
     price: "600",
     duration: "3 séances",
+    alt: "Blanchiment dentaire pour un sourire éclatant",
   },
 ];
 
@@ -38,7 +37,7 @@ const ServicesPreview = () => {
           whileInView={{ opacity: 1, y: 0 }}
           className="text-4xl font-bold text-primary text-center mb-12"
         >
-          Nos services
+          Découvrez nos services de bien-être et beauté
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -53,6 +52,7 @@ const ServicesPreview = () => {
               <div className="flex justify-center items-center mb-6">
                 <img
                   src={service.image}
+                  alt={service.alt}
                   className="object-cover rounded-lg h-[300px] w-[400px] transition-all duration-300 hover:scale-110 mx-auto"
                 />
               </div>
@@ -62,7 +62,7 @@ const ServicesPreview = () => {
               <p className="text-gray-600 mb-4">{service.description}</p>
               <div className="flex justify-between items-center mb-4">
                 <span className="text-sm text-gray-500">
-                  Duration: {service.duration}
+                  Durée : {service.duration}
                 </span>
                 <span className="text-lg font-semibold text-primary">
                   {service.price} DHS
@@ -75,7 +75,7 @@ const ServicesPreview = () => {
                     whileTap={{ scale: 0.95 }}
                     className="bg-primary text-white px-8 py-3 rounded-full hover:bg-secondary transition-colors"
                   >
-                    Réservez
+                    Réservez maintenant
                   </motion.button>
                 </Link>
               </div>
@@ -92,7 +92,7 @@ const ServicesPreview = () => {
             to="/services"
             className="inline-block bg-primary text-white px-8 py-3 rounded-full hover:bg-secondary transition-colors"
           >
-            Voir tous les services
+            Voir tous nos services
           </Link>
         </motion.div>
       </div>
