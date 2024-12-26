@@ -5,14 +5,14 @@ export const services = [
     title: "Hammam au Chocolat Relaxant et Gourmand",
     description: "Profitez d'un rituel unique alliant gommage traditionnel, gant saharien et savon au chocolat pour une peau douce et nourrie, tout en éveillant vos sens avec une touche gourmande.",
     duration: "60 min",
-    price: "200 ",
+    price: "199 ",
     image: "https://marajahspa.com/wp-content/uploads/2023/01/PHOTO-2023-01-11-17-10-048-1024x682.jpg",
   },
   {
     title: "Hammam Anti-Stress pour une Détente Profonde",
     description: "Éliminez le stress avec un gommage au gant, un enveloppement au pamplemousse, des soins apaisants et un brushing, pour retrouver sérénité et énergie.",
     duration: "60 min",
-    price: "300 ",
+    price: "299 ",
     image: "https://www.bienetreconfort.fr/wp-content/uploads/2018/05/hammam-anti-stress.jpg",
   },
   {
@@ -61,14 +61,14 @@ export const services = [
     title: "Microneedling Réparateur pour une Peau Lisse",
     description: "Rajeunissez votre peau et réduisez les imperfections grâce à notre soin de microneedling, idéal pour retrouver un teint éclatant et lisse.",
     duration: "1 séance",
-    price: "400 ",
+    price: "399 ",
     image: "https://myla-bella.com/wp-content/uploads/2024/09/microneedling.jpg",
   },
   {
     title: "Blanchiment Dentaire Professionnel",
     description: "Offrez-vous un sourire éclatant avec notre traitement de blanchiment dentaire professionnel et sécurisé, pour des résultats visibles en toute confiance.",
     duration: "3 séances",
-    price: "600 ",
+    price: "599 ",
     image: "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
   },
 ];
