@@ -28,10 +28,7 @@ const Services = () => {
             Votre voyage vers le bien-être
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Tous nos services incluent une brève consultation pour comprendre
-            vos besoins et vos préférences. Nos thérapeutes expérimentés
-            personnaliseront chaque traitement pour vous assurer un maximum de
-            bienfaits et de détente.
+            Découvrez nos services personnalisés, incluant une consultation gratuite pour cerner vos besoins et préférences. Nos thérapeutes qualifiés adaptent chaque soin pour maximiser votre bien-être et offrir une expérience de détente optimale.
           </p>
         </motion.div>
       </div>
