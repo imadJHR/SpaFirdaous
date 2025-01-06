@@ -1,33 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
-  <!-- Balises Meta générales -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="Firdaous Spa - Votre refuge bien-être">
-  <meta name="description" content="Détendez-vous et revitalisez-vous au Firdaous Spa. Découvrez nos soins luxueux et notre expertise professionnelle pour une relaxation ultime.">
-  <meta name="keywords" content="Firdaous Spa, bien-être, spa, détente, massage, soins de beauté">
-  <meta name="author" content="Firdaous Spa">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="fr">
-  <meta name="theme-color" content="#a6d8f0">
+    <title>Firdaous Spa - Votre refuge bien-être</title>
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self'; 
+      script-src 'self' https://www.googletagmanager.com; 
+      style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
+      img-src 'self' https: data:; 
+      font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;
+      report-uri /csp-report;">
+    
+    <!-- Balises Meta générales -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Firdaous Spa - Votre refuge bien-être">
+    <meta name="description" content="Détendez-vous et revitalisez-vous au Firdaous Spa. Découvrez nos soins luxueux et notre expertise professionnelle pour une relaxation ultime.">
+    <meta name="keywords" content="Firdaous Spa, bien-être, spa, détente, massage, soins de beauté">
+    <meta name="author" content="Firdaous Spa">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="fr">
+    <meta name="theme-color" content="#a6d8f0">
 
-  <!-- Balises Open Graph (pour Facebook et Instagram) -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://firdaousspa.netlify.app/">
-  <meta property="og:title" content="Firdaous Spa - Votre refuge bien-être">
-  <meta property="og:description" content="Détendez-vous et revitalisez-vous au Firdaous Spa. Découvrez nos soins luxueux et notre expertise professionnelle pour une relaxation ultime.">
-  <meta property="og:image" content="https://firdaousspa.netlify.app/images/og-image.jpg">
-  <meta property="og:image:alt" content="Firdaous Spa - Un environnement de spa luxueux">
+    <!-- Balises Open Graph (pour Facebook et Instagram) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://firdaousspa.netlify.app/">
+    <meta property="og:title" content="Firdaous Spa - Votre refuge bien-être">
+    <meta property="og:description" content="Détendez-vous et revitalisez-vous au Firdaous Spa. Découvrez nos soins luxueux et notre expertise professionnelle pour une relaxation ultime.">
+    <meta property="og:image" content="https://firdaousspa.netlify.app/images/og-image.jpg">
+    <meta property="og:image:alt" content="Firdaous Spa - Un environnement de spa luxueux">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6BNYW1P2EF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6BNYW1P2EF');
-</script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BNYW1P2EF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6BNYW1P2EF');
+    </script>
   </head>
   <body>
     <div id="root"></div>
