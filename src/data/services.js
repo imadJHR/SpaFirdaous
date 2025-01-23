@@ -1,3 +1,6 @@
+import Logo from "../assets/Hero_spa.jpeg"
+
+
 export const services = [
     {
       title: "Hammam Au Chocolat",

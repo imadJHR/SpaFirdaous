@@ -1,25 +1,31 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Smile from "../assets/smile2-transformed.jpeg";
 
 const services = [
   {
-    title: "Thérapie par massage",
-    description: "Vivez une relaxation profonde avec nos massages signatures",
+    title: "Microneedling",
+    description: "Vivez une relaxation profonde avec nos Microneedling",
     image:
-      "https://media.istockphoto.com/id/469916170/fr/photo/jeune-femme-de-d%C3%A9tente-au-cours-de-massage-dans-le-spa.jpg?s=612x612&w=0&k=20&c=JBu29cEFB5QkP4dd63Lucd6ysw_8MZaUCgUSq7PKo4Q=",
+      "https://myla-bella.com/wp-content/uploads/2024/09/microneedling.jpg",
+    price: "400",
+    duration: "1 séance",
   },
   {
-    title: "Soins du visage",
+    title: "Soins du visage Royal",
     description: "Revitalisez votre peau avec des ingrédients naturels",
     image:
-      "https://img.freepik.com/photos-gratuite/jeune-femme-au-masque-pour-visage-relaxant-dans-salon-spa_176420-7582.jpg?uid=R115960642&ga=GA1.1.519463234.1718278238&semt=ais_hybrid",
+      "https://www.mademoisellerelax.fr/wp-content/uploads/2018/06/mademoiselle-relax-soins-visage-2.jpg",
+    price: "400",
+    duration: "60 min",
   },
   {
     title: "Blanchiment dentaire",
     description:
       "Ravivez l'éclat naturel de votre sourire avec un soin professionnel et sécurisé.",
-    image: Smile,
+    image:
+      "https://www.drmorganecohensamama.com/wp-content/uploads/2019/12/blanchiment-dr-morgane-cohen-chirurgien-dentiste.jpg",
+    price: "600",
+    duration: "3 séances",
   },
 ];
 
@@ -42,18 +48,37 @@ const ServicesPreview = () => {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
-              className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow"
+              className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-shadow flex flex-col"
             >
-              <div className="flex justify-center items-center mb-6 ">
+              <div className="flex justify-center items-center mb-6">
                 <img
                   src={service.image}
-                  className="object-cover rounded-lg  h-[300px] w-[400px] transition-all duration-300 hover:scale-110  mx-auto"
+                  className="object-cover rounded-lg h-[300px] w-[400px] transition-all duration-300 hover:scale-110 mx-auto"
                 />
-              </div>{" "}
+              </div>
               <h3 className="text-2xl font-semibold mb-4 text-primary">
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-4">{service.description}</p>
+              <div className="flex justify-between items-center mb-4">
+                <span className="text-sm text-gray-500">
+                  Duration: {service.duration}
+                </span>
+                <span className="text-lg font-semibold text-primary">
+                  {service.price} DHS
+                </span>
+              </div>
+              <div className="mt-auto">
+                <Link to="/reservation">
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="bg-primary text-white px-8 py-3 rounded-full hover:bg-secondary transition-colors"
+                  >
+                    Réservez
+                  </motion.button>
+                </Link>
+              </div>
             </motion.div>
           ))}
         </div>

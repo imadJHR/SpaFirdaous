@@ -1,36 +1,54 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-
-const flowerVariants = {
-  initial: { opacity: 0, y: '100vh' },
-  animate: { opacity: 1, y: '-100vh' },
-};
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const FlyingFlowers = () => {
-  const flowers = ['🌸', '🌺', '🌼', '🌻', '💮'];
-  
+  const [flowers, setFlowers] = useState([]);
+
+  useEffect(() => {
+    const createFlower = () => ({
+      id: Math.random(),
+      x: Math.random() * window.innerWidth,
+      y: -50,
+      rotation: Math.random() * 360,
+    });
+
+    const initialFlowers = Array.from({ length: 5 }, createFlower);
+    setFlowers(initialFlowers);
+
+    const interval = setInterval(() => {
+      setFlowers((prev) => {
+        const newFlowers = prev
+          .map((flower) => ({
+            ...flower,
+            y: flower.y + 2,
+            rotation: flower.rotation + 1,
+          }))
+          .filter((flower) => flower.y < window.innerHeight);
+
+        if (newFlowers.length < 5) {
+          newFlowers.push(createFlower());
+        }
+
+        return newFlowers;
+      });
+    }, 50);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden">
-      {[...Array(15)].map((_, index) => (
+    <div className="fixed inset-0 pointer-events-none z-0">
+      {flowers.map((flower) => (
         <motion.div
-          key={index}
-          className="absolute text-3xl"
+          key={flower.id}
+          className="absolute w-4 h-4"
           style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-          }}
-          variants={flowerVariants}
-          initial="initial"
-          animate="animate"
-          transition={{
-            duration: Math.random() * 10 + 10,
-            repeat: Infinity,
-            repeatType: 'loop',
-            ease: 'linear',
-            delay: Math.random() * 5,
+            left: flower.x,
+            top: flower.y,
+            rotate: flower.rotation,
           }}
         >
-          {flowers[Math.floor(Math.random() * flowers.length)]}
+          🌸
         </motion.div>
       ))}
     </div>
@@ -38,4 +56,3 @@ const FlyingFlowers = () => {
 };
 
 export default FlyingFlowers;
-

@@ -16,32 +16,40 @@ const Reservation = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Validate the data (ensure no field is empty)
+    if (!formData.name || !formData.tel || !formData.date || !formData.time || !formData.service) {
+      alert("Veuillez remplir tous les champs avant de soumettre.");
+      return;
+    }
 
-    fetch("https://formspree.io/f/xanygpgj", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((response) => {
-        if (response.ok) {
-          setIsSubmitted(true);
-          setFormData({
-            name: "",
-            tel: "",
-            date: "",
-            time: "",
-            service: "",
-          });
-        } else {
-          alert("Une erreur est survenue. Veuillez réessayer.");
-        }
-      })
-      .catch((error) => {
-        console.error("Error submitting form:", error);
-        alert("Une erreur est survenue. Veuillez réessayer.");
-      });
+    // Format the message for WhatsApp
+    const message = `Nouvelle réservation:\n
+Nom: ${formData.name}
+Téléphone: ${formData.tel}
+Date: ${formData.date}
+Heure: ${formData.time}
+Service: ${formData.service}`;
+
+    // Replace this with your WhatsApp number (with country code)
+    const whatsappNumber = "212645288216";
+
+    // Create WhatsApp URL with the formatted message
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, "_blank");
+
+    // Reset form and show success message
+    setIsSubmitted(true);
+    setFormData({
+      name: "",
+      tel: "",
+      date: "",
+      time: "",
+      service: "",
+    });
   };
 
   return (
