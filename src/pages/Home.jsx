@@ -20,7 +20,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <div className="text-center text-white">
             <h1 className="text-5xl font-bold mb-4">
-              Welcome to Firdaous Paradise Spa{" "}
+              Bienvenue à Firdaous Paradise Spa{" "}
             </h1>
             <p className="text-xl">Vivez la détente ultime</p>
             <button className="justify-center items-center mt-6 bg-secondary text-primary font-semibold py-3 px-6 rounded-lg shadow-md hover:text-primary hover:scale-105 transition-transform duration-300 ease-in-out">

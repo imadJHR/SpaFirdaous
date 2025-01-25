@@ -16,32 +16,27 @@ const Reservation = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Validate the data (ensure no field is empty)
+
+    // Validation des champs
     if (!formData.name || !formData.tel || !formData.date || !formData.time || !formData.service) {
       alert("Veuillez remplir tous les champs avant de soumettre.");
       return;
     }
 
-    // Format the message for WhatsApp
+    // Message formaté pour WhatsApp
     const message = `Nouvelle réservation:\n
 Nom: ${formData.name}
 Téléphone: ${formData.tel}
 Date: ${formData.date}
 Heure: ${formData.time}
 Service: ${formData.service}`;
+    const whatsappNumber = "+212661253143";
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
-    // Replace this with your WhatsApp number (with country code)
-    const whatsappNumber = "212645288216";
-
-    // Create WhatsApp URL with the formatted message
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-      message
-    )}`;
-
-    // Open WhatsApp in a new tab
+    // Ouverture de WhatsApp
     window.open(whatsappUrl, "_blank");
 
-    // Reset form and show success message
+    // Réinitialisation du formulaire et message de succès
     setIsSubmitted(true);
     setFormData({
       name: "",
@@ -64,7 +59,7 @@ Service: ${formData.service}`;
       </motion.h1>
 
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
-        {/* Image Section */}
+        {/* Section Image */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -77,7 +72,7 @@ Service: ${formData.service}`;
           />
         </motion.div>
 
-        {/* Form Section */}
+        {/* Section Formulaire */}
         <motion.form
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -104,6 +99,7 @@ Service: ${formData.service}`;
                   }
                   placeholder="Entrez votre nom"
                   required
+                  aria-label="Nom"
                 />
               </div>
 
@@ -121,6 +117,7 @@ Service: ${formData.service}`;
                     setFormData({ ...formData, tel: e.target.value })
                   }
                   required
+                  aria-label="Téléphone"
                 />
               </div>
 
@@ -137,6 +134,7 @@ Service: ${formData.service}`;
                     setFormData({ ...formData, date: e.target.value })
                   }
                   required
+                  aria-label="Date"
                 />
               </div>
 
@@ -153,6 +151,7 @@ Service: ${formData.service}`;
                     setFormData({ ...formData, time: e.target.value })
                   }
                   required
+                  aria-label="Heure"
                 />
               </div>
 
@@ -168,6 +167,7 @@ Service: ${formData.service}`;
                     setFormData({ ...formData, service: e.target.value })
                   }
                   required
+                  aria-label="Service"
                 >
                   <option value="">Sélectionnez un service</option>
                   <option value="swedish">Massage Suédois</option>

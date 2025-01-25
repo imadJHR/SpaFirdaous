@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -14,19 +14,19 @@ const Footer = () => {
             <p>Rue oussama ibno zaid n110 maarif</p>
             <p>Casablanca, Morocco</p>
             <p>Tél: +212 661-253143</p>
-            <p>Email: imadjohar4@gmail.com</p>
+            <p>Email: firdaousreservation@gmail.com</p>
           </div>
           <div>
             <h4 className="text-xl font-semibold mb-4">Suivez-nous</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-[#D2B48C] transition-colors">
+              <a href="https://www.facebook.com/beautyfirdaous/" target="_blank" className="text-white hover:text-[#D2B48C] transition-colors">
                 <FaFacebookF size={24} />
               </a>
               <a href="https://www.instagram.com/firdaous.paradise.spa/" target="_blank" className="text-white hover:text-[#D2B48C] transition-colors">
                 <FaInstagram size={24} />
               </a>
-              <a href="https://www.instagram.com/firdaous.paradise.spa/" target="_blank"className="text-white hover:text-[#D2B48C] transition-colors">
-                <FaTwitter size={24} />
+              <a href="https://wa.me/+212661253143" target="_blank"className="text-white hover:text-[#D2B48C] transition-colors">
+                <FaWhatsapp size={24} />
               </a>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import Logo from "../assets/logo_paradise.jpeg"
+import Logo from "../assets/logo.jpeg"
 
 const LoadingAnimation = () => {
   return (
