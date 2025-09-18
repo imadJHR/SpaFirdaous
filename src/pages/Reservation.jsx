@@ -30,7 +30,7 @@ Téléphone: ${formData.tel}
 Date: ${formData.date}
 Heure: ${formData.time}
 Service: ${formData.service}`;
-    const whatsappNumber = "+212661253143";
+    const whatsappNumber = "+212665757494";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     // Ouverture de WhatsApp
